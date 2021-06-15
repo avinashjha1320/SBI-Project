@@ -99,3 +99,20 @@ html {
 table {
     border-radius: 90px;
 }
+
+@media (max-width: 420px) {
+    .container-table100 {
+        margin-left: 100px;
+    }
+    body {
+        font-size: 10px;
+    }
+    .card-body {
+        width: 370px;
+        /* width: 50%; */
+    }
+    .card-media {
+        width: 350px;
+        height: 360px;
+    }
+}

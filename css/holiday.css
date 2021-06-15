@@ -1,3 +1,7 @@
+.limiter {
+    margin-top: 140px;
+}
+
 .column100 {
     /* width: 50px; */
     padding-left: 25px;
@@ -10,4 +14,20 @@
 
 .column100.column2 {
     width: 100px;
+}
+
+@media (max-width: 420px) {
+    .container-table100 {
+        margin-left: -10px;
+    }
+    .column100 {
+        padding-left: 15px;
+    }
+    .column100.column1 {
+        width: 10px;
+        padding-left: 22px;
+    }
+    body {
+        font-size: 10px;
+    }
 }

@@ -511,3 +511,13 @@ td {
     background-color: #6a6c7a;
     color: #fff;
 }
+
+@media (max-width: 420px) {
+    .limiter {
+        background: #d1d1d1;
+        width: 140%;
+    }
+    .container-table100 {
+        margin-left: 20px;
+    }
+}
