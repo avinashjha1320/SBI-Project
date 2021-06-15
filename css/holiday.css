@@ -1,0 +1,13 @@
+.column100 {
+    /* width: 50px; */
+    padding-left: 25px;
+}
+
+.column100.column1 {
+    width: 20px;
+    padding-left: 42px;
+}
+
+.column100.column2 {
+    width: 100px;
+}
